@@ -1,4 +1,4 @@
-# Prueba de Programación II - Simulación de Jerarquías y Mutación
+# Exámen de Programación II 
 
 Este repositorio contiene el desarrollo del **Examen de Programación II**
 
