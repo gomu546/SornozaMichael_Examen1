@@ -121,9 +121,7 @@ public class smAntCiberDron implements smIA {
         }
     }
 
-    // ---------------------------------------------------------
-    // 🔥 NUEVO: Método seguro para leer campos del CSV
-    // ---------------------------------------------------------
+    
     private String safeCampo(String[] campos, int index) {
         if (index < campos.length && !campos[index].trim().isEmpty()) {
             return campos[index].trim();
@@ -131,9 +129,7 @@ public class smAntCiberDron implements smIA {
         return " ";
     }
 
-    // ---------------------------------------------------------
-    // MÉTODO PARA MOSTRAR HORARIOS (CORREGIDO)
-    // ---------------------------------------------------------
+   
     public void smmostrarHorarios() {
         System.out.println(smLoading.COLOR_YELLOW + "\n--- INICIANDO CARGA DE HORARIOS ---" + smLoading.COLOR_RESET);
         System.out
